@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
+    <link href="./src/styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <form class="container" autocomplete="off">
+        <label class="taskLabel">Task:</label>
+        <input type="text" id="inputTask">
+        <p>Select a category</p>
+        <ul class="categories"></ul>
+        <button id="buttonAdd">Add new task</button>
+        <p class="toDo">To Do:</p>
+        <ul class="tasks"></ul>
+    </form>
+
+    <script type="module" src="./dist/app.js"></script>
+</body>
+</html>
